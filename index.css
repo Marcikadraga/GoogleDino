@@ -2,3 +2,21 @@ img{
     width: 300px;
     height: 300px;
 }
+#mapContainer{
+height : 1000px;
+width :100%;
+background-color:white;
+display : flex;
+align-items : flex-end;
+border : 3px solid black;
+}
+#dinoContainer{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    left:100px;
+}
+#dino0 ,#dino1 ,#dino2{
+    position: absolute;
+}
