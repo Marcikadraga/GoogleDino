@@ -1,10 +1,10 @@
 let imgContainer = document.getElementById("imgContainer");
-imgContainer.style.height = "100vh"
+imgContainer.style.height = "400px"
 imgContainer.style.width = "100%"
 imgContainer.style.backgroundColor = "white";
 imgContainer.style.display = "flex";
 imgContainer.style.justifyContent = "center";
-imgContainer.style.alignItems = "center";
+imgContainer.style.alignItems = "flex-end";
 imgContainer.style.border = "3px solid black";
 
 let dino0 = document.getElementById("dino0");
@@ -34,9 +34,9 @@ function run() {
                 dino1.style.visibility = "visible";
                 dino2.style.visibility = "hidden";
             }
+            console.log(counter);
             run();
-        }, 300);
+        }, 150);
     }
 }
-
 
